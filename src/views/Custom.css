@@ -1,0 +1,182 @@
+.custombg
+{
+     background:#edf0f5; 
+
+}
+
+.newbg
+{
+    background-color: #fff;
+    box-shadow: 4px 4px 4px #22222208;
+    margin-top:5%;
+    padding: 0px;
+}
+
+.logo1 {
+    background: #101936;
+    float: left;
+    padding: 0% 0 0% 0;
+
+}
+
+.logo1 span
+{
+    background-image: url('../assets/img/payflex.png');
+    width: 100px;
+    height: 50px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.logo2 {
+    background: #101936;
+    float: left;
+    width: 100%;
+    padding: 0% 0 0% 0;
+
+}
+
+.logo2 span
+{
+    background-image: url('../assets/img/payflex.png');
+    width: 100px;
+    height: 50px;
+    margin: 2% 0 0 4%;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.custombg form{
+    padding: 120px 5%;
+
+}
+.sidebar[data-color="black"]:after, .off-canvas-sidebar[data-color="black"]:after {
+    background: #101936;
+}
+.custombtn
+{
+    border-radius: 20px;
+    padding: 3% 10%;
+    font-weight: 500;
+    float: right;
+}
+.custombtn1
+{
+    border-radius: 20px;
+    padding: 3% 10%;
+    font-weight: 500;
+    float: right;
+}
+.sidebar .logo a.logo-mini, .off-canvas-sidebar .logo a.logo-mini {
+    opacity: 1;
+    float: left;
+    width: 114px;
+    text-align: center;
+    margin-left: 25%;
+   
+}
+.sidebar .logo, .off-canvas-sidebar .logo {
+    position: relative;
+    padding: 7px 0.7rem;
+    float: left;
+    width: 100%;
+    z-index: 4;
+}
+.headbg
+{
+    background-color: #101936 !important;
+}
+
+.cprofile
+{
+    margin-top:10%;
+}
+
+.cprofile-text
+{
+    float: right;
+}
+.cprofile-text h3
+{
+    font-size: 20px;
+    color: #fff;
+    margin: 0px;
+}
+
+.form-check .form-check-sign::before, .form-check .form-check-sign::after {
+    content: " ";
+    display: inline-block;
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 0;
+    border: 1px solid #0000002b;
+    cursor: pointer;
+    border-radius: 6px;
+    top: 25px;
+    background-color: #007bff00;
+    transition: opacity 0.3s linear;
+}
+.form-check-label input[type="checkbox"]:checked + .form-check-sign:before {
+    background-color: #66615b00;
+}
+.cbtnn{
+    width: 188px;;
+}
+
+.spaces
+{
+    margin-left: 20px;
+}
+
+.fpass{
+    font-size: 13px;
+    width: 100%;
+    float: left;
+    padding: 1% 0;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.Lsec
+{
+  
+    color: #fff;
+    background-color: #5783fe;
+}
+
+
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+ .StripeElement {
+    box-sizing: border-box;
+  
+    height: 40px;
+  
+    padding: 10px 12px;
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+  }
+  
+  .StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+  }
+  
+  .StripeElement--invalid {
+    border-color: #fa755a;
+  }
+  
+  .StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+  }
